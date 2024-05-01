@@ -1,0 +1,71 @@
+/* Reset di alcuni stili di default per avere una base più pulita */
+body, h1, h2, p, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Font più leggibile */
+    background-color: #f4f4f9; /* Colore di sfondo leggero */
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #555;
+}
+
+form {
+    background: white; /* Sfondo bianco per il form */
+    padding: 20px;
+    border-radius: 8px; /* Angoli arrotondati */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra leggera per profondità */
+    width: 100%; /* Larghezza completa per dispositivi mobili */
+    max-width: 600px; /* Massima larghezza del form */
+    margin: auto; /* Centrato orizzontalmente */
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 16px; /* Dimensione del testo per i paragrafi */
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label {
+    margin-right: 20px; /* Spazio tra le label e i successivi input */
+    font-size: 14px; /* Dimensione del testo per le label */
+}
+
+textarea {
+    width: 100%; /* Larghezza completa del textarea */
+    padding: 10px; /* Padding interno per il textarea */
+    border: 1px solid #ccc; /* Bordo sottile grigio */
+    border-radius: 4px; /* Angoli arrotondati per il textarea */
+    margin-bottom: 20px; /* Spazio sotto il textarea */
+}
+
+input[type="submit"] {
+    background-color: #007BFF; /* Blu bootstrap per il bottone submit */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; /* Rende il bottone un blocco per centrarlo */
+    width: 100%; /* Larghezza completa del bottone */
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Colore al passaggio del mouse */
+}
